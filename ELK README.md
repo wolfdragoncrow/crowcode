@@ -163,7 +163,7 @@ Only the Whitelisted IP_and the ELK____ machine can accept connections from the 
 
 *   _TODO: Add whitelisted IP addresses_
 
-    _Your Home IP Address and [Your ELK STACK VM Public IP](https://portal.azure.com/#)_
+    _Your Home IP Address and Your ELK STACK VM Public IP
 
 
 Machines within the network can only be accessed by Single Server/ssh_____.
@@ -209,9 +209,15 @@ A summary of the access policies in place can be found in the table below.
    <td>10.2.0.4
    </td>
   </tr>
+  <td>Elk Project VM
+     </td>
+     <td> no
+     </td>
+     <td>10.2.0.4
+     </tr>
 </table>
 
-### ** **Elk Project   no                           10.2.0.4
+
 
 
 ### **Elk Configuration**
@@ -257,7 +263,7 @@ We have installed the following Beats on these machines:
 
 
 
-*   _TODO: Specify which Beats you successfully installed: FILEBEAT_
+*   _TODO: Specify which Beats you successfully installed: FILEBEAT
 
 These Beats allow us to collect the following information from each machine:
 
